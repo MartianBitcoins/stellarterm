@@ -1,0 +1,34 @@
+
+$s-color-primaryRoot: #074a0d; // a bright brand color
+$s-color-neutralRoot: blacken(#5b6a72,60);
+
+// Themes that override root colors will need to regenerate these
+// These color names are stable and will not change
+$s-color-neutral1: $s-color-neutralRoot;
+$s-color-neutral2: whiten($s-color-neutralRoot, 10%);
+$s-color-neutral3: whiten($s-color-neutralRoot, 20%);
+$s-color-neutral4: whiten($s-color-neutralRoot, 35%);
+$s-color-neutral5: whiten($s-color-neutralRoot, 50%);
+$s-color-neutral6: whiten($s-color-neutralRoot, 70%);
+$s-color-neutral7: whiten($s-color-neutralRoot, 85%);
+$s-color-neutral8: whiten($s-color-neutralRoot, 95%);
+$s-color-neutral9: whiten($s-color-neutralRoot, 100%);
+
+$s-color-primary1: blacken($s-color-primaryRoot, 40%);
+$s-color-primary2: blacken($s-color-primaryRoot, 30%);
+$s-color-primary3: blacken($s-color-primaryRoot, 20%);
+$s-color-primary4: $s-color-primaryRoot;
+$s-color-primary5: whiten($s-color-primaryRoot, 50%);
+$s-color-primary6: whiten($s-color-primaryRoot, 40%);
+$s-color-primary7: whiten($s-color-primaryRoot, 30%);
+$s-color-primary8: whiten($s-color-primaryRoot, 20%);
+$s-color-primary9: whiten($s-color-primaryRoot, 10%);
+
+$bgp-container-bg: rgba(0,0,0,0.75);
+$bgp-container-bg-hover: #2f2f2f;
+$bgp-main-text-color: #fff;
+$bgp-primary-button: #ff9800;
+$bgp-primary-button-active: #d68206;
+$bgp-input-bg: #3c3c3c;
+$bgp-input-color: #bdbdbd;
+

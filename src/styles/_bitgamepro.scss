@@ -1,0 +1,79 @@
+body {
+  color: $bgp-main-text-color;
+  background: url(../bitgamepro/assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-color: #21212a;
+  background-size: contain;
+
+  input {
+    background: $bgp-input-bg;
+    color: $bgp-input-color;
+  }
+}
+
+.Header_main .Header_background {
+  background: $bgp-container-bg;
+  color: $bgp-main-text-color;
+
+  .Header .Header_nav .Nav_logo {
+    background: url(../bitgamepro/assets/logo.svg);
+    text-indent: 999%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 60px;
+    position: relative;
+    top: -11px;
+  }
+}
+
+.HomePage__black {
+  background: transparent;
+}
+.HomePage__lead {
+  color: $bgp-main-text-color;
+}
+
+.Header_main .Header_background .Header .Header_nav .Nav_link.is-current,
+.s-button {
+  background: $bgp-primary-button;
+  border-color: $bgp-primary-button;
+
+  &:hover {
+    background: $bgp-primary-button-active;
+    border-color: $bgp-primary-button-active;
+  }
+}
+
+.island,
+.island__header,
+.Footer__chunk {
+  background: $bgp-container-bg;
+}
+
+.AssetList__asset:hover {
+  background: $bgp-container-bg-hover
+}
+
+.OfferMaker__table__input__group__tag {
+  background: #8c8c8c;
+}
+
+.OfferTable__row_background {
+  background: $bgp-container-bg;
+
+  &:nth-child(2n) {
+    background: $bgp-container-bg-hover;
+  }
+
+  .OfferTable__row:hover {
+    background: rgba(253, 253, 200, 0.49) !important;
+  }
+}
+
+.LoginPage__sidebar {
+  background: $bgp-container-bg;
+
+  .LoginPage__sidebar__tab {
+    background: #757575;
+  }
+}

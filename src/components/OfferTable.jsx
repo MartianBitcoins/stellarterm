@@ -13,7 +13,7 @@ export default class OfferTable extends React.Component {
           Math.min(100, Number((offer.depth / this.props.maxDepth) * 100).toFixed(1));
 
         const rowStyle = {};
-        const background = isBuy ? '#dcf6de' : '#fed6d8';
+        const background = isBuy ? '#97ad99' : '#6b5859';
         const gradientDirection = isBuy ? 'to left' : 'to right';
 
         rowStyle.background =
