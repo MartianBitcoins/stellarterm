@@ -214,7 +214,7 @@ function phase3(ticker) {
           } else {
             // TODO: Add num trades for other trade pairs too
             console.error();
-            console.error('Error: No support in StellarTerm ticker for pairs without XLM. ' + pairSlug);
+            console.error('Error: No support in BitgamePro ticker for pairs without XLM. ' + pairSlug);
             console.error();
             return;
           }
@@ -475,7 +475,7 @@ function getStellarTermDotComVersion() {
       return -1; // Return 0 when couldn't find anything
     })
     .catch(err => {
-      console.error('Phase 1 StellarTerm.com version error: ' + err.message);
+      console.error('Phase 1 BitgamePro.com version error: ' + err.message);
       return -1;
     })
 }

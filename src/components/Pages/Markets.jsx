@@ -13,10 +13,10 @@ export default function Markets(props) {
                 <div className="island">
                     <AssetList d={props.d} />
                     <div className="AssetListFooter">
-                        StellarTerm does not endorse any of these issuers. They are here for informational purposes
+                        BitgamePro does not endorse any of these issuers. They are here for informational purposes
                         only.
                         <br />
-                        To get listed on StellarTerm,{' '}
+                        To get listed on BitgamePro,{' '}
                         <a
                             href="https://github.com/stellarterm/stellarterm/tree/master/directory"
                             target="_blank"

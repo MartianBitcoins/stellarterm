@@ -53,7 +53,7 @@ export default class Inflation extends React.Component {
             });
         };
 
-        this.handleStellarTermVote = async () => {
+        this.handleBitgameProVote = async () => {
             this.props.d.session.handlers
                 .setInflation('GDCHDRSDOBRMSUDKRE2C4U4KDLNEATJPIHHR2ORFL5BSD56G4DQXL4VW')
                 .then((bssResult) => {
@@ -98,10 +98,10 @@ export default class Inflation extends React.Component {
             inflationDestInfo = (
                 <div>
                     <p>
-                        You are currently voting for: <strong>{account.inflation_destination}</strong> (StellarTerm)
+                        You are currently voting for: <strong>{account.inflation_destination}</strong> (BitgamePro)
                     </p>
                     <div className="Generic__divider" />
-                    <h3 className="Inflation__thankYou">Thank you for voting for StellarTerm!</h3>
+                    <h3 className="Inflation__thankYou">Thank you for voting for BitgamePro!</h3>
                 </div>
             );
         } else {
@@ -109,9 +109,9 @@ export default class Inflation extends React.Component {
                 <button
                     className="s-button Inflation__stellarTermVote"
                     onClick={(e) => {
-                        this.handleStellarTermVote(e);
+                        this.handleBitgameProVote(e);
                     }}>
-                    Vote for StellarTerm
+                    Vote for BitgamePro
                 </button>
             );
             if (this.state.stellarTermVote === 'working') {

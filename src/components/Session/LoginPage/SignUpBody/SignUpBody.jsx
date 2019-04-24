@@ -27,7 +27,7 @@ export default class SignUpBody extends React.Component {
             <div className="LoginPage__generatedNote">
                 <p>
                     <strong>
-                        Keep your key secure. This secret key will only be showed to you once. StellarTerm does not save
+                        Keep your key secure. This secret key will only be showed to you once. BitgamePro does not save
                         it and will not be able to help you recover it if lost.
                     </strong>
                 </p>

@@ -6,7 +6,7 @@ export default () => (
         <ul>
             <li>Check the url to make sure you are on the correct website.</li>
             <li>
-                StellarTerm does not save your secret key. It is stored on your browser and will be deleted once the
+                BitgamePro does not save your secret key. It is stored on your browser and will be deleted once the
                 page is refreshed or exited.
             </li>
 
@@ -26,7 +26,7 @@ export default () => (
             </li>
 
             <li>
-                StellarTerm is released under the Apache 2.0. It is provided {'"'}AS IS{'"'} without warranty. The
+                BitgamePro is released under the Apache 2.0. It is provided {'"'}AS IS{'"'} without warranty. The
                 developer is not responsible for any losses and activities caused by the application.
             </li>
         </ul>

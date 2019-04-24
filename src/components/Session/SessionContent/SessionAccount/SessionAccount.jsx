@@ -25,8 +25,8 @@ export default function SessionAccount(props) {
                 <p>
                     In the Stellar network, funds exist on the network and can only be moved by whoever has the secret
                     key. This means that your secret key is extremely sensitive, and whoever has access to it can move
-                    the funds. However, money is <strong>NOT</strong> actually <em>{'"inside"'}</em> StellarTerm.
-                    StellarTerm is just a helpful tool that helps you use your secret key to make transactions.
+                    the funds. However, money is <strong>NOT</strong> actually <em>{'"inside"'}</em> BitgamePro.
+                    BitgamePro is just a helpful tool that helps you use your secret key to make transactions.
                 </p>
 
                 <p>

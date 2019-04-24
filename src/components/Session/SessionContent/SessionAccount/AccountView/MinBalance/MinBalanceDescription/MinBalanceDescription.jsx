@@ -21,7 +21,7 @@ export default () => (
         </p>
         <p>
             Each entry (asset accepted, offer, signer) increases your minimum balance by 0.5 XLM. Additionally,
-            StellarTerm enforces a 0.5 XLM of extra minimum balance in an attempt to make sure your account can still
+            BitgamePro enforces a 0.5 XLM of extra minimum balance in an attempt to make sure your account can still
             make transactions without going below the network minimum balance requirements.
         </p>
         <p>

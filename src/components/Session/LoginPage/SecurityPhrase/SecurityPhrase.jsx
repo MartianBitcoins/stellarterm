@@ -56,7 +56,7 @@ export default class SecurityPhrase extends React.Component {
 
                     <div className="security-phrase-text warning-text">
                         <div className="bold">Secret Phrase not found!</div> A Secret Phrase can help you verify that
-                        you are using authentic StellarTerm website and save you from phishing attacks.
+                        you are using authentic BitgamePro website and save you from phishing attacks.
                     </div>
                 </div>
 
@@ -68,7 +68,7 @@ export default class SecurityPhrase extends React.Component {
                         </p>
 
                         <p className="description">
-                            Your Secret Phrase could be missing if you access StellarTerm from a new device or a new
+                            Your Secret Phrase could be missing if you access BitgamePro from a new device or a new
                             browser. <br />
                             Check the URL to make sure you are on the correct website.
                         </p>

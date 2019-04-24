@@ -44,7 +44,7 @@ export default function DepositAnchors(props) {
                 <p>
                     This is a list of anchors from the Stellar community.
                     <br />
-                    Note: StellarTerm does not endorse any of these anchors.
+                    Note: BitgamePro does not endorse any of these anchors.
                 </p>
             </div>
 

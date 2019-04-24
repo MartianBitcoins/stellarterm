@@ -50,7 +50,7 @@ export default class ErrorBoundary extends React.Component {
 
                 <div className="Error_text_block">
                     <strong>Your funds are safe</strong> and not affected by this error. This error is just a
-                    display error in StellarTerm, and is not your fault.
+                    display error in BitgamePro, and is not your fault.
                 </div>
 
                 <pre>

@@ -48,7 +48,7 @@ export default function OfferMakerResultMessage(props) {
         case 'tx_bad_seq':
             return (
                 <div className="s-alert s-alert--alert OfferMaker__message">
-                    Transaction failed because sequence got out of sync. Please reload StellarTerm and try again.
+                    Transaction failed because sequence got out of sync. Please reload BitgamePro and try again.
                 </div>
             );
         case 'op_underfunded':

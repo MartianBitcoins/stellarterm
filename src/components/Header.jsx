@@ -41,7 +41,7 @@ export default class Header extends React.Component {
                     <div className="so-chunk Header">
 
                         <nav className="Header_nav">
-                            <a className="Nav_logo" href="/#">StellarTerm</a>
+                            <a className="Nav_logo" href="/#">BitgamePro</a>
                             {this.createHeaderTab('exchange', 'Exchange')}
                             {this.createHeaderTab('markets', 'Markets')}
                             {this.createHeaderTab('account', 'Account')}

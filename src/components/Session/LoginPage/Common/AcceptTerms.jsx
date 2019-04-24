@@ -25,7 +25,7 @@ export default class AcceptTerms extends React.Component {
                         <a href="#terms-of-use" className="LoginPage__accept__link">
                             Terms of Use
                         </a>
-                        , understand the risks associated with cryptocurrencies, and know that StellarTerm does not
+                        , understand the risks associated with cryptocurrencies, and know that BitgamePro does not
                         issue or endorse any asset on the Stellar network.
                     </span>
                 </label>
