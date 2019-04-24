@@ -72,6 +72,9 @@ export default class AssetListRows extends React.Component {
         const { ticker, limit } = this.props;
 
         return ticker.data.assets.map((asset, index) => {
+            if (asset.id === 'bitgamepro.com') {
+                debugger;
+            }
             const directoryAsset = directory.getAssetByAccountId(asset.code, asset.issuer);
             const limitIsReached = limit && index >= limit;
             const assetIsUndefined = directoryAsset === null || directoryAsset.unlisted;

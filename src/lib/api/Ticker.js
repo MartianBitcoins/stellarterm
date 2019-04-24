@@ -25,6 +25,39 @@ export default class Ticker {
             .then((tickerData) => {
                 this.ready = true;
                 this.data = tickerData;
+                this.data.assets = [
+                    {
+                        id: 'BGPT-bitgamepro.com',
+                        code: 'BGPT',
+                        issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+                        domain: 'bitgamepro.com',
+                        slug: 'BGPT-bitgamepro.com',
+                        website: 'https://bitgamepro.com',
+                        price_XLM: 1, // LOL 1 dogecoin = 1 dogecoin; 1 lumen = 1 lumen
+                        price_USD: 1,
+                    },
+                    {
+                        id: 'BGPUSD-bitgamepro.com',
+                        code: 'BGPUSD',
+                        issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+                        domain: 'bitgamepro.com',
+                        slug: 'BGPUSD-bitgamepro.com',
+                        website: 'https://bitgamepro.com',
+                        price_XLM: 1, // LOL 1 dogecoin = 1 dogecoin; 1 lumen = 1 lumen
+                        price_USD: 1,
+                    },
+                    {
+                        id: 'BGPPromo-bitgamepro.com',
+                        code: 'BGPPromo',
+                        issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+                        domain: 'bitgamepro.com',
+                        slug: 'BGPPromo-bitgamepro.com',
+                        website: 'https://bitgamepro.com',
+                        price_XLM: 1, // LOL 1 dogecoin = 1 dogecoin; 1 lumen = 1 lumen
+                        price_USD: 1,
+                    },
+                ].concat(tickerData.assets);
+                console.log(this.data);
                 console.log(`Loaded ticker. Data generated ${Math.round((new Date() - (this.data._meta.start * 1000)) / 1000)} seconds ago.`);
 
                 this.event.trigger();

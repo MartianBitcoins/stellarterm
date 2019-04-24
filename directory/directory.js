@@ -22,6 +22,32 @@ directory.DirectoryBuilder = DirectoryBuilder;
 // });
 
 directory.addAnchor({
+    domain: 'bitgamepro.com',
+    website: 'https://bitgamepro.com/',
+    logo: 'bitgamepro.com',
+    color: '#1D344F',
+    displayName: 'BitgamePro',
+});
+
+directory.addAsset('bitgamepro.com', {
+    code: 'BGPT',
+    issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+    type: 'token',
+});
+
+directory.addAsset('bitgamepro.com', {
+    code: 'BGPUSD',
+    issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+    type: 'token',
+});
+
+directory.addAsset('bitgamepro.com', {
+    code: 'BGPPromo',
+    issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+    type: 'token',
+});
+
+directory.addAnchor({
     domain: 'ternio.io',
     website: 'https://ternio.io',
     logo: 'ternio.io',
@@ -519,6 +545,18 @@ directory.addAsset('ximcoin.com', {
 // "Fiat" asset should be counterSelling
 directory.addPair({
     baseBuying: ['XLM', 'native'],
+    counterSelling: ['BGPT', 'bitgamepro.com'],
+});
+directory.addPair({
+    baseBuying: ['XLM', 'native'],
+    counterSelling: ['BGPUSD', 'bitgamepro.com'],
+});
+directory.addPair({
+    baseBuying: ['XLM', 'native'],
+    counterSelling: ['BGPPromo', 'bitgamepro.com'],
+});
+directory.addPair({
+    baseBuying: ['XLM', 'native'],
     counterSelling: ['CNY', 'ripplefox.com'],
 });
 
@@ -875,7 +913,7 @@ directory.addDestination('GA6HCMBLTZS5VYYBCATRBRZ3BZJMAFUDKYYF6AH6MVCMGWMRDNSWJP
 });
 
 directory.addDestination('GDCHDRSDOBRMSUDKRE2C4U4KDLNEATJPIHHR2ORFL5BSD56G4DQXL4VW', {
-    name: 'StellarTerm Inflation',
+    name: 'BitgamePro Inflation',
     acceptedAssetsWhitelist: [],
 });
 
