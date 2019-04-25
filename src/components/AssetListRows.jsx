@@ -72,14 +72,15 @@ export default class AssetListRows extends React.Component {
         const { ticker, limit } = this.props;
 
         return ticker.data.assets.map((asset, index) => {
-            if (asset.id === 'bitgamepro.com') {
-                debugger;
-            }
             const directoryAsset = directory.getAssetByAccountId(asset.code, asset.issuer);
             const limitIsReached = limit && index >= limit;
             const assetIsUndefined = directoryAsset === null || directoryAsset.unlisted;
 
-            if (limitIsReached || assetIsUndefined) { return null; }
+            if (limitIsReached || assetIsUndefined) {
+                console.log('Ignoring asset for list', limitIsReached, assetIsUndefined);
+                console.log(asset, limitIsReached, assetIsUndefined);
+                return null;
+            }
 
             const isXLMNative = asset.id === 'XLM-native';
             const assetRow = this.getAssetDataRows(isXLMNative, asset);

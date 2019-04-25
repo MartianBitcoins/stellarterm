@@ -31,19 +31,19 @@ directory.addAnchor({
 
 directory.addAsset('bitgamepro.com', {
     code: 'BGPT',
-    issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+    issuer: 'GBLCXY2T5XR4G4TLZL3UAF3GV6IXDKZSTE3RSZZQYRE33I5X55Z34AXC',
     type: 'token',
 });
 
 directory.addAsset('bitgamepro.com', {
     code: 'BGPUSD',
-    issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+    issuer: 'GBLCXY2T5XR4G4TLZL3UAF3GV6IXDKZSTE3RSZZQYRE33I5X55Z34AXC',
     type: 'token',
 });
 
 directory.addAsset('bitgamepro.com', {
     code: 'BGPPromo',
-    issuer: 'GDQI2N6MPTTJJ7ECE4UFM3HBQCOINVBJDHMEUL2BTPIAALSVD6KFO2IA',
+    issuer: 'GBLCXY2T5XR4G4TLZL3UAF3GV6IXDKZSTE3RSZZQYRE33I5X55Z34AXC',
     type: 'token',
 });
 

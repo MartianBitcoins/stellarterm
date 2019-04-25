@@ -45,7 +45,7 @@ export default class Header extends React.Component {
                             {this.createHeaderTab('exchange', 'Exchange')}
                             {this.createHeaderTab('markets', 'Markets')}
                             {this.createHeaderTab('account', 'Account')}
-                            {this.createHeaderTab('download', 'Download')}
+                            {/* {this.createHeaderTab('download', 'Download')} */}
                         </nav>
 
                         <span className="Header_version">v{window.stBuildInfo.version}</span>

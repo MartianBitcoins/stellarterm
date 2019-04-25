@@ -109,8 +109,8 @@ export default class AssetDropDown extends React.Component {
 
         const { code, issuer } = this.props.exception || '';
         const isExceptionNative = this.props.exception && this.props.exception.isNative();
-
-        return assets
+        console.log('[getFilterAssets] assets:', assets);
+        const filteredAssets = assets
             .filter((asset) => {
                 const { unlisted } = directory.getAssetByAccountId(asset.code, asset.issuer) || {};
                 const isAssetNative = new StellarSdk.Asset(asset.code, asset.issuer).isNative();
@@ -128,6 +128,8 @@ export default class AssetDropDown extends React.Component {
                     (this.constructor.getDomainForUnknownAsset(asset).indexOf(this.state.code.toLowerCase()) > -1)
                 )),
             );
+        console.log('[getFilterAssets] filtered assets:', filteredAssets);
+        return filteredAssets;
     }
 
     openListByFocus() {

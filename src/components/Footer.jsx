@@ -17,7 +17,7 @@ export default () => (
                     <a href="#terms-of-use">Terms of use</a>
                 </p>
                 <p className="Footer__list__item">
-                    <a href="mailto:support@stellarterm.com">support@stellarterm.com</a>
+                    <a href="mailto:support@bitgamepro.com">support@bitgamepro.com</a>
                 </p>
             </div>
         </div>
