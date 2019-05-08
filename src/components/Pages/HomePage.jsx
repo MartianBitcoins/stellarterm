@@ -53,51 +53,6 @@ export default class HomePage extends React.Component {
                     </div>
                 </div>
 
-                <div className="so-back islandBack">
-                    <div className="island">
-                        <div className="island__sub">
-
-                            <div className="island__sub__division">
-                                <div className="HomePage__sideBlurb">
-                                    <p>
-                                        BitgamePro is just a client that can be used to
-                                        access the Stellar Decentralized Exchange. Neither
-                                        BitgamePro nor the developers of it are involved with
-                                        operating the Stellar network.
-                                    </p>
-                                    <p>
-                                        BitgamePro is developed by Ultra Stellar, LLC, the same
-                                        company that developed the LOBSTR wallet. The project is
-                                        independent of the Stellar Development Foundation.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className="island__sub__division">
-                                <div className="HomePage__sideBlurb">
-                                    <p>
-                                        BitgamePro is open source software.
-                                        To support the project, please{' '}
-                                        <a href="https://github.com/stellarterm/stellarterm" target="_blank" rel="nofollow noopener noreferrer">
-                                            star the project on GitHub
-                                        </a>.
-                                    </p>
-                                    <p>
-                                        The project is released under the
-                                        Apache-2.0 license and is released as is
-                                        without warranty.
-                                    </p>
-                                    <p>
-                                        BitgamePro is not a custodian of your assets.{' '}
-                                        We do not store any tokens, cryptoassets
-                                        or private keys on your behalf.
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
             </div>
         );
     }

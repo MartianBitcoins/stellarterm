@@ -4,10 +4,13 @@ export default () => (
     <div className="so-back Footer">
         <div className="so-chunk Footer__chunk">
             <div className="Footer__disclaimer">
-                Cryptocurrency assets are subject to high market risks and volatility. Past performance is not
-                indicative of future results. Investments in blockchain assets may result in loss of part or all of your
-                investment. BitgamePro does NOT endorse ANY asset on the Stellar network. Please do your own research
-                and use caution.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.
             </div>
             <div className="Footer__list">
                 <p className="Footer__list__item">
