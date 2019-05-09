@@ -76,3 +76,20 @@ body {
     background: #757575;
   }
 }
+
+.SecurityPhrase {
+  &.missing {
+      border: 1px solid #b15b5b;
+      background: #b15b5b;
+  }
+
+  &.exists {
+      border: 1px solid #83c386;
+      background: #83c386;
+  }
+}
+
+.subNavBack {
+  background: none;
+  box-shadow: 0 1px 3px rgba(255, 255, 255, 0.3);
+}
